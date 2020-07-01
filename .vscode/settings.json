@@ -1,0 +1,8 @@
+{
+  "editor.formatOnType": true,
+  // "editor.fontLigatures": null,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+"editor.fontWeight": "300",
+"editor.wordWrap": "on" // Light
+}
