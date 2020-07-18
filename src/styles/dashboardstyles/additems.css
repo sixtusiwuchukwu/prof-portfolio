@@ -1,0 +1,42 @@
+.title-container {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-container select {
+  height: 50px;
+  width: 200px;
+  /* margin-top: ; */
+  font-size: 20px;
+}
+
+.file-container {
+  width: auto;
+  height: 250px;
+  position: relative;
+  top: 50px;
+}
+.file-container img {
+  width: 100%;
+  height: auto;
+}
+.upload-btn {
+  width: 200px;
+  height: 40px;
+  font-size: 30px;
+  background-color: rgb(6, 80, 6);
+  color: white;
+  border: none;
+  outline: none;
+  margin-top: 40px;
+  font-family: firacode;
+}
+
+.hold input[type="file"] {
+  width: 500px;
+  height: 40px;
+  /* background-color: lightskyblue; */
+  outline: none;
+}
