@@ -1,0 +1,71 @@
+.media-contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  width: 80vw;
+}
+#contactme {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  word-spacing: 1;
+  font-family: sans-serif;
+  position: relative;
+  bottom: 50px;
+  text-align: center;
+}
+
+.holder {
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  background-image: linear-gradient(
+    135deg,
+    rgb(2, 170, 176),
+    rgba(9, 85, 95, 0.946)
+  );
+
+  padding-bottom: 10%;
+  border-top: 0px;
+  padding: 80px 0;
+}
+
+.media-contact-container button {
+  width: 220px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 16px;
+  outline: none;
+}
+.media-contact-container button:hover {
+  opacity: 0.6;
+}
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+.twitter {
+  background: #55acee;
+  color: white;
+}
+.whatsapp {
+  background: #4fce5d;
+  color: white;
+}
+.gmail {
+  background: #dd4b39;
+  color: white;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

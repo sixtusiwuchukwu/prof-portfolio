@@ -1,0 +1,121 @@
+.collection-backdrop {
+  background-color: whitesmoke;
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+}
+.collection-details {
+  background-color: rgba(255, 255, 255, 0.268);
+  width: 80%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+  animation: slidein 1s ease;
+}
+.collection-details h1 {
+  margin: 0;
+}
+.collection-item {
+  width: 30%;
+  height: 250px;
+  background-color: peru;
+  border: none;
+  animation-duration: 1s;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  animation-name: slidein;
+  object-fit: cover;
+}
+.collection-item:hover .delete-btn-div {
+  display: block;
+}
+.sample-image {
+  width: 100%;
+  height: 100%;
+}
+
+.sample:hover {
+  box-shadow: 0 20px 18px 0 rgba(0, 0, 0, 0.337),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.collection-header {
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-height: 80vh;
+  margin-bottom: 30px;
+}
+.collection-header-shade {
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.274);
+  height: 40vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.delete-btn {
+  background-color: none;
+  /* position: absolute; */
+  bottom: 30px;
+  width: 20px;
+  height: 20px;
+  color: red;
+  background-color: white;
+  border-radius: 30px;
+}
+.delete-btn-div {
+  /* width: 100%; */
+  height: 30px;
+  /* background-color: violet; */
+  position: absolute;
+  /* right: 0; */
+  display: none;
+}
+.arrowback {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  align-content: center;
+  cursor: pointer;
+}
+
+.collection-header-h1 {
+  margin-top: 0;
+  background-image: linear-gradient(
+    135deg,
+    rgb(2, 170, 176),
+    rgba(9, 85, 95, 0.946)
+  );
+  color: transparent;
+  background-clip: text;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+@keyframes slidein {
+  0% {
+    opacity: 0.09;
+    transform: translateX(10%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(-5%);
+  }
+  60% {
+    transform: translateX(5%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

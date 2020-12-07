@@ -1,0 +1,101 @@
+.sidepane {
+  width: 20%;
+  height: 100vh;
+  background-image: linear-gradient(
+    135deg,
+    rgb(2, 170, 176),
+    rgba(9, 85, 95, 0.946)
+  );
+  color: white;
+  display: flex;
+  flex-direction: column;
+  word-break: break-all;
+}
+.li-inner-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  left: 20px;
+  position: relative;
+  list-style: none;
+  text-align: center;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.sidepane a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 1s;
+  font-family: serif;
+  cursor: pointer;
+}
+.open-close-btn-div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  left: 20px;
+  position: relative;
+  list-style: none;
+  text-align: center;
+  min-width: 85%;
+  max-width: 85%;
+  padding: 8% 0;
+}
+.extend-btn {
+  transition: 0.5s ease;
+}
+.reduce-btn {
+  transition: 0.5s ease;
+}
+
+.sidepane-li {
+  list-style: none;
+  text-align: center;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.sidepane a:hover {
+  opacity: 0.7;
+}
+
+.body-content {
+  width: 80%;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  transition: 0.5s ease;
+}
+
+.layout-profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+}
+.profile-image-atag {
+  position: relative;
+  left: -28px;
+}
+.profile-image-text {
+  position: relative;
+  left: -34px;
+}
+
+/* .route-text {
+    display: none;
+  } */
+
+/* .small {
+    width: 5%;
+    height: 100vh;
+    /* background-color: rgb(133, 122, 102);
+  } */
+
+/* svg {
+    display: block;
+  } */
